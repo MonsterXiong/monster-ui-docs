@@ -1,0 +1,27 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "commit": "vuepress build docs && gh-pages -d docs/.vuepress/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.0.0",
+    "sass-loader": "^7.3.1",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  },
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "element-ui": "^2.15.1"
+  }
+}
