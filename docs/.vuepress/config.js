@@ -1,14 +1,12 @@
 module.exports = {
-  base: "/monster-ui-docs/",
+  title: "MonsterUI",
+  base: "/",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
-    navbar: false,
+    logo: "/favicon.ico",
+    search: false,
+    smoothScroll: true,
     sidebar: [
-      // [
-      //   "https://blog.monsterbear.top",
-      //   "更新日志",
-      // ],
-      // ["https://blog.monsterbear.top", "Element React"],
-      // ["https://blog.monsterbear.top", "Element Angular"],
       {
         title: "开发指南",
         sidebarDepth: 0,
@@ -33,9 +31,9 @@ module.exports = {
             children: [
               "/layout",
               "/container",
-              ["/color", "色彩"],
-              ["/typography", "字体"],
-              ["/border", "边框"],
+              ["/color", "Color 色彩"],
+              ["/typography", "Font 字体"],
+              ["/border", "Border 边框"],
               "/icon",
               "/button",
               "/link",
